@@ -1,60 +1,55 @@
-# Fullstack Collection App
+This is an app to pratice my skills that I gained at Enspiral Dev Academy's Bootcamp and a surprise for my girlfriend. She is an artist across many mediums and as an artist it's great to have an archive of all of your work.
 
-This repo is designed to provide space to code a fullstack app. It contains node modules and folders for databases, routes, api requests, react components, and redux actions and creators. Let's get going!
+## MVP
 
-```
-npm install
-git checkout -b <branchname>
-npm run dev
-```
+1. As a user I want to know about them.
+   - Infomation I want to see:
+   - Name
+   - Pronouns
+   - Photos
+   - Bio
+   - Vaules
+   - Background
 
-## Notes
 
-A few notes to keep you out of trouble:
-- When running knex, run `npm run knex <command>`, e.g. `npm run knex migrate:latest` rather than using `npx`
-- When running webpack, run `npm run webpack <extra commands>`, e.g. `npm run webpack`, rather than using `npx`
+2. As a user I want to see what events are currently happening. 
+  - Import an API 
+  - Filter by genre
+  - Link to social media
+  - Description
+  - Time
+  - Date
+  - Frequency
+  - Who's involved
 
-## How to start
 
-First, decide what you would like to keep a collection of. This could be a repo for keeping track of movies, books, gifs, cars, rocks, anything you fancy!
+3. As a user I want to be able to filter through past events by genre.
+  - Landing page with options of filtering genre
 
-**Note:** the aim is to have some simple data. If you think you might need more than one database table, or have lots of details you want to store, how could you simplify the information you're keeping track of? Leave more complex data until later in the project. For example, I want to keep track of books that I want to read, ones that I have read, and ones that I own. To start with though, let's keep track of the books themselves. My data might look like:
 
-|id|title|author|
-|---|---|---|
-| 1 | Ready Player One | Ernest Cline |
-| 2 | Throwing Rocks at the Google Bus | Douglas Rushkoff |
+4. As a user I want to see reviews for their work.
+  - Potential link to API
+  - Or could be presented with a database
+  - Images
+  - Show
+  - Date
+  - Where
+  - Key quotes
 
-Our first job is getting something showing on the front end from our database. Here's a list of steps in case they are useful. You can build in any order you like though ;)
 
-### Back End
+5. As a user I want to be able to follow them on social media. 
+  - Link to TikTok
+  - Link to Faceback
+  - Link to Twitter
+  - Link to Instagram
+  
 
-1.  Design a database to store a list of your things (e.g. books)
-1.  Build the migrations and seed data
-1.  Build an API (back end route) to get the information from your database
-1.  Test your API with Postman/Insomnia
+## Views (Client Side)
 
-### Front End
-
-1.  Build a React Component with static html
-1.  Build Redux Reducer. Start with a hardcoded initial state, for example:
-```js
-const initialState = [{ id: 1, title: 'Ready Player One', author: 'Ernest Cline' }]
-```
-3.  Use `useSelector` to display the redux state you hardcoded in the React Component
-1.  Build an API Client in the front end to request the information from your routes
-1.  Build Thunk Actions to use the API and get the information
-1.  Build Redux Actions to save task data from the thunk
-1.  Use `useDispatch` and `useEffect` to dispatch the thunk when your app loads
-
-## Next steps
-
-At this stage we should be able to view our information. Below are suggested next steps, though you might prioritize these in another order.
-
-- Include the ability to add a new record (will need a form in your components)
-- Include the ability to remove/delete records
-- Include the ability to update records (e.g. for correcting typos)
-  - You might have some other information (e.g. unread books vs. read books) that should be included in your database design, but this may require adjusting your database design - start simple!
-- Is there any complex data you chose to not include earlier or any way you could expand this dataset?
-- Could you add an external API (maybe an inspirational quote in the footer?)
-- If you haven't already, CSS!
+| Name                     | Purpose                                                                             |
+| ------------------------ | ----------------------------------------------------------------------------------- |
+| Home                     | General info about the site and Alayne and Aaron.                                   |
+| About Us                 | Page to view more about them as artists, see MVP 1.                                 |
+| Events                   | See upcoming events and past events.                                                |
+| Reviews                  | See reviews for past shows.                                                         |
+| Shows they've done       | Archive of all of their work.                                                       |
