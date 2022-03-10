@@ -63,10 +63,9 @@ This is an app to pratice my skills that I gained at Enspiral Dev Academy's Boot
 
 | Name                     | Purpose                                                                             |
 | ------------------------ | ----------------------------------------------------------------------------------- |
-| Home                     | General info about the site and Alayne.
-                                   |
+| Home                     | General info about the site and Alayne.                                             |
 | About Us                 | Page to view more about them as artists, see MVP 1.                                 |
 | Events                   | See upcoming events and past events.                                                |
 | Reviews                  | See reviews for past shows.                                                         |
-| Shows she's done       | Archive of all of her work.                                                       |
-| Publications      | Links and lists of where her work has been published.                                                     |
+| Shows she's done         | Archive of all of her work.                                                         |
+| Publications             | Links and lists of where her work has been published.                               |
