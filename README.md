@@ -2,7 +2,7 @@ This is an app to pratice my skills that I gained at Enspiral Dev Academy's Boot
 
 ## MVP
 
-1. As a user I want to know about them.
+1. As a user I want to know about her.
    - Infomation I want to see:
    - Name
    - Pronouns
@@ -42,14 +42,31 @@ This is an app to pratice my skills that I gained at Enspiral Dev Academy's Boot
   - Link to Faceback
   - Link to Twitter
   - Link to Instagram
-  
+
+6. As a user I'd like to be able to post life updates and poems.
+   - Textbox to write in
+   - Date the post was made
+   - History of posts
+ 
+
+7. As a user I'd like to be able to see publications.
+   - List of publications
+   - Where to access the work
+   
+## Stretch Goals
+
+   - Able to edit a post
+   - Able to delete a post
+   - Able to sign up for a newsletter
 
 ## Views (Client Side)
 
 | Name                     | Purpose                                                                             |
 | ------------------------ | ----------------------------------------------------------------------------------- |
-| Home                     | General info about the site and Alayne and Aaron.                                   |
+| Home                     | General info about the site and Alayne.
+                                   |
 | About Us                 | Page to view more about them as artists, see MVP 1.                                 |
 | Events                   | See upcoming events and past events.                                                |
 | Reviews                  | See reviews for past shows.                                                         |
-| Shows they've done       | Archive of all of their work.                                                       |
+| Shows she's done       | Archive of all of her work.                                                       |
+| Publications      | Links and lists of where her work has been published.                                                     |
