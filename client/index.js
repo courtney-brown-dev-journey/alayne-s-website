@@ -1,22 +1,14 @@
 import React from 'react'
-import ReactDOM from "react-dom"
-import { Provider } from 'react-redux'
-import store from './store'
-
+import ReactDOM from 'react-dom'
+import { HashRouter as Router } from 'react-router-dom'
+import "bootstrap/dist/css/bootstrap.min.css"
 import App from './components/App'
 
-import "bootstrap/dist/css/bootstrap.min.css"
-
-
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
- 
-
-      <Provider store={store}>
-          <App />
-      </Provider>,
-  
-
-    document.getElementById("app")
+    <Router>
+      <App />
+    </Router>,
+    document.getElementById('app')
   )
 })

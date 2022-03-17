@@ -2,14 +2,23 @@ import React from 'react'
 import Navigation from './Navigation'
 import Home from './Home'
 import Footer from './Footer'
-import AppRoutes from './AppRoutes'
+import { Route, Link } from 'react-router-dom'
+import MeetTheArtist from './MeetTheArtist'
 
 function App () {
   return (
     <>
     <Navigation />
     <Home />
-    <AppRoutes />
+        <Route 
+        exact 
+        path='/' 
+        component={Home} />
+        <Route
+            exact
+            path='/meettheartist'
+            component={MeetTheArtist}
+        />
     <Footer />
     </>
   )
