@@ -1,3 +1,5 @@
+import request from 'superagent'
+
 export function fetchArtist() {
     return request
       .get('/api/v1/meettheartist')
@@ -7,4 +9,5 @@ export function fetchArtist() {
       .catch((err) => {
         console.error({ error: err.message })
       })
+      
   }

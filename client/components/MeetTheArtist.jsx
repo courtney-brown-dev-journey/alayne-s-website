@@ -3,9 +3,11 @@ import Container from 'react-bootstrap/Container'
 
 function MeetTheArtist() {
     return (
-        <Container>
-            <h1> Alayne Dick </h1>
-        </Container>
+        <>
+            <Container>
+                <h1> Alayne Dick </h1>
+            </Container>
+        </>
     )
 }
 
